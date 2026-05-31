@@ -2,12 +2,12 @@
 
 A clean, responsive Rock Paper Scissors game built with vanilla HTML, CSS, and JavaScript.
 
-🔗 **[Live Demo]()**
+🔗 **[Live Demo](https://mansityagi548.github.io/Rock-Paper-Scissors-/)**
 
 📸 Preview 
 
 
-![Game preview]()
+![Game preview](Game%20preview.png)
 
 🎮 How to Play : 
 
