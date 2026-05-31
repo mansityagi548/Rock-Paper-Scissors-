@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="assests/logo.svg" alt="Rock Paper and Scissors">
+        <div class="scores">
+            <div class="score-card">
+                <span class="score-label">Wins</span>
+                <span id="win" class="score-number">--</span>
+            </div>
+            <div class="score-card">
+                <span class="score-label">Losses</span>
+                <span id="loss" class="score-number">--</span>
+            </div>
+            <div class="score-card">
+                <span class="score-label">Draws</span>
+                <span id="draw" class="score-number">--</span>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main class="main-one">
+        <div class="game-board">
+            <img src="assests/bg-triangle.svg" alt="" class="triangle-bg">
+
+            <button class="token-btn paper" data-id="paper" aria-label="Paper">
+                <div class="icon-wrapper">
+                    <img src="assests/icon-paper.svg" alt="">
+                </div>
+            </button>
+
+            <button class="token-btn scissors" data-id ="scissors"  aria-label="Scissors">
+                <div class="icon-wrapper">
+                    <img src="assests/icon-scissors.svg" alt="">
+                </div>
+            </button>
+
+            <button class="token-btn rock" data-id="rock"  aria-label="Rock">
+                <div class="icon-wrapper">
+                    <img src="assests/icon-rock.svg" alt="">
+                </div>
+            </button>
+        </div>
+    </main>
+
+<footer>
+    <button class="rules-btn" id="open-rules-btn">Rules</button>
+</footer>
+
+<div class="modal-overlay" id="rules-modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>Rules</h2>
+            <button class="close-btn" id="close-rules-btn" aria-label="Close rules">
+                <img src="assests/icon-close.svg" alt="">
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="assests/image-rules.svg" alt="Rules: Paper beats Rock, Rock beats Scissors, Scissors beats Paper" class="rules-img">
+        </div>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
